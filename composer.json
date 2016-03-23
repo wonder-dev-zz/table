@@ -1,0 +1,29 @@
+{
+    "name": "wonderdev/table",
+    "description": "gestion des datatable et facilitation des appelle",
+    "keywords": [
+    "datatable",
+    "datatables",
+    "tables",
+    "table",
+    "datagrid"
+    ],
+    "homepage": "http://wonder-dev.olympe.in",
+    "type": "library",
+    "require": {
+        "ropendev/datatablesphp": "^0.0.95"
+    },
+    "autoload": {
+        "psr-4": {
+          "Table\\": "src/Table/"
+        }
+    },
+    "license": "WonderDEV",
+    "authors": [
+        {
+            "name": "wonder-dev",
+            "email": "wonder-dev@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
